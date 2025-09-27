@@ -1,0 +1,58 @@
+/* Sidebar.css - White and Red Theme */
+
+.sidebar-header {
+  background-color: #e74c3c; /* Vibrant red */
+  color: #ffffff;            /* White text */
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff; /* White background */
+  height: 100vh;
+  padding-top: 1.5rem;
+  gap: 1rem;
+  border-right: 2px solid #e74c3c;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 0.9rem 1.2rem;
+  color: #e74c3c;             /* Red text */
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  background: none;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sidebar-link:hover {
+  background-color: #e74c3c; /* Red background */
+  color: #ffffff;            /* White text on hover */
+  border-radius: 0 20px 20px 0;
+}
+
+.sidebar-icon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.sidebar-text {
+  font-size: 1rem;
+}
+
+/* Highlight active NavLink */
+.sidebar-link.active {
+  background-color: #c0392b; /* Darker red for active */
+  color: #ffffff;
+  border-radius: 0 20px 20px 0;
+}

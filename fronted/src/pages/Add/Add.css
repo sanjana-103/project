@@ -1,0 +1,72 @@
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.image_upload_conatiner img.preview-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+}
+
+.form-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.product_save {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.product-image img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product_save h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product_save p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.add_to_save {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add_to_save:hover {
+  background-color: #0056b3;
+}
